@@ -1,0 +1,21 @@
+{
+    "Version": "2012-10-17",
+    "Statement": [
+        {
+            "Sid": "AllowModelInvocation",
+            "Effect": "Allow",
+            "Action": [
+                "bedrock:InvokeModel"
+            ],
+            "Resource": "arn:aws:bedrock:us-east-1::foundation-model/amazon.nova-lite-v1:0"
+        },
+        {
+            "Sid": "AllowGuardrailApplication",
+            "Effect": "Allow",
+            "Action": [
+                "bedrock:ApplyGuardrail"
+            ],
+            "Resource": "arn:aws:bedrock:us-east-1:664730203381:guardrail/5f8qq6zmzpge"
+        }
+    ]
+}
