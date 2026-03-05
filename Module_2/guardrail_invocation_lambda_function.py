@@ -31,7 +31,7 @@ def lambda_handler(event, context):
     response = client.invoke_model(
         modelId="amazon.nova-lite-v1:0",
         body=json.dumps(body),
-        guardrailIdentifier="5f8qq6zmzpge",
+        guardrailIdentifier="ah3ph7nat50x",
         guardrailVersion="1",
         contentType="application/json",
         accept="application/json"

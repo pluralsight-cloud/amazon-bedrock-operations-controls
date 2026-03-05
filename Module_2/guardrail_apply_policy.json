@@ -15,7 +15,7 @@
             "Action": [
                 "bedrock:ApplyGuardrail"
             ],
-            "Resource": "arn:aws:bedrock:us-east-1:664730203381:guardrail/5f8qq6zmzpge"
+            "Resource": "arn:aws:bedrock:us-east-1:664730203381:guardrail/ah3ph7nat50x"
         }
     ]
 }
