@@ -1,0 +1,4 @@
+fields @timestamp, @message
+| filter requestId = "bcf36842-9c1a-4573-b1e9-4123a603b77d"
+    or requestId = "a5440df3-1318-441c-98bc-774e5325ba91"
+| sort @timestamp desc
